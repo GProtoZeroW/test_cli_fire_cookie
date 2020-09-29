@@ -1,7 +1,7 @@
 """Main module."""
 
 import fire
-from action import action_class
+from test_cli_fire_cookie.action import action_class
 
 class fire_cli(action_class):
     
@@ -17,5 +17,8 @@ class fire_cli(action_class):
         self.ran(n)
         print(self.random_array)
 
-if __name__ == '__main__':
+def main():
     fire.Fire(fire_cli)
+if __name__ == '__main__':
+    main()
+    

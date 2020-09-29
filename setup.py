@@ -38,7 +38,7 @@ setup(
     include_package_data=True,
     keywords='test_cli_fire_cookie',
     name='test_cli_fire_cookie',
-    packages=find_packages(include=['test_cli_fire_cookie', 'test_cli_fire_cookie.*']),
+    packages=find_packages(include=['test_cli_fire_cookie', 'test_cli_fire_cookie.*', 'test_cli_fire_cookie.action']),
     entry_points={
         "console_scripts": ["test_cli_fire = test_cli_fire_cookie.test_cli_fire_cookie:main"]
     },
