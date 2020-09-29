@@ -16,7 +16,7 @@ test_cli_fire_cookie
 
 
 
-Test on how to get fire v3 usage working withsetup tools on windows
+Test on how to get fire v3 usage working withsetup tools on windows and works, using fire with wrapping method `Version 4: fire.Fire(<class>)` from https://google.github.io/python-fire/guide/ feel free to use 
 
 
 * Free software: GNU General Public License v3
